@@ -1,0 +1,57 @@
+.about-section {
+  padding: 80px 24px;
+  background: #161E2D;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-col-text {
+  flex: 1.2;
+}
+
+.about-col-visual {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+}
+
+.about-lottie-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-subhead {
+  font-size: 1.4rem;
+  margin-bottom: 14px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.about-tag {
+  padding: 5px 14px;
+  background: rgba(124, 90, 237, 0.1);
+  border: 1px solid rgba(124, 90, 237, 0.25);
+  border-radius: 50px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 0.8rem;
+  color: #a78bfa;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column-reverse;
+    gap: 36px;
+  }
+}

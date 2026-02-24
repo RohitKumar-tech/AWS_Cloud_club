@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Nova+Square&family=Raleway:wght@300;400;500;600;700&family=Sarpanch:wght@400;700&family=Share+Tech&display=swap');
+
+.footer {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.section-header {
+  font-family: 'Share Tech', sans-serif;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.side-head {
+  background: linear-gradient(to right, #d1d5db, #7C5AED);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.para {
+  text-align: justify;
+  line-height: 24px;
+  color: #d1d5db;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #161E2D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #7C5AED, #4c1d95);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161E2D;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #d1d5db, #7C5AED);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Utility */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #7C5AED;
+}
+
+::selection {
+  background: #7C5AED;
+  color: #fff;
+}

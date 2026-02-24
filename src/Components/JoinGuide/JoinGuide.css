@@ -1,0 +1,125 @@
+.join-section {
+  padding: 80px 24px;
+  background: #161E2D;
+}
+
+.join-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.join-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Connector line between steps */
+.join-steps::before {
+  content: '';
+  position: absolute;
+  top: 42px;
+  left: calc(33.33% - 20px);
+  right: calc(33.33% - 20px);
+  height: 2px;
+  background: linear-gradient(to right, rgba(124,90,237,0.3), rgba(124,90,237,0.6), rgba(124,90,237,0.3));
+  z-index: 0;
+}
+
+.join-step-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(124, 90, 237, 0.2);
+  border-radius: 16px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.join-step-card:hover {
+  background: rgba(124, 90, 237, 0.08);
+  border-color: rgba(124, 90, 237, 0.4);
+  transform: translateY(-4px);
+}
+
+.join-step-number {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 3rem;
+  background: linear-gradient(to right, rgba(124,90,237,0.3), rgba(124,90,237,0.6));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+
+.join-step-title {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 0;
+}
+
+.join-step-desc {
+  font-size: 0.9rem;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.join-step-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: rgba(124, 90, 237, 0.12);
+  border: 1px solid rgba(124, 90, 237, 0.35);
+  border-radius: 8px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 0.85rem;
+  color: #a78bfa;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: all 0.2s;
+  margin-top: auto;
+}
+
+.join-step-btn:hover {
+  background: rgba(124, 90, 237, 0.2);
+  color: #c4b5fd;
+  transform: translateY(-2px);
+}
+
+.join-note {
+  margin-top: 40px;
+  text-align: center;
+  padding: 18px 28px;
+  background: rgba(124, 90, 237, 0.08);
+  border: 1px solid rgba(124, 90, 237, 0.2);
+  border-radius: 12px;
+}
+
+.join-note p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.95rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.join-note strong {
+  color: #a78bfa;
+}
+
+@media (max-width: 768px) {
+  .join-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .join-steps::before {
+    display: none;
+  }
+}

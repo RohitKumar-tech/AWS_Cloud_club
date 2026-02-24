@@ -1,0 +1,13 @@
+.faq-section {
+  padding: 80px 24px;
+  background: linear-gradient(to bottom, #0f1623, #161E2D);
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-list {
+  margin-top: 20px;
+}

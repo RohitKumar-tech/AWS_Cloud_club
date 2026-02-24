@@ -1,0 +1,140 @@
+.footer-wrapper {
+  background: rgba(10, 14, 22, 0.95);
+  border-top: 1px solid rgba(124, 90, 237, 0.15);
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px 30px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.footer-brand {
+  font-family: 'Michroma', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+
+.footer-aws { color: #FF9900; }
+.footer-cc { color: #fff; }
+.footer-srm { color: #7C5AED; }
+
+.footer-tagline {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.88rem;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-contact-item:hover {
+  color: #7C5AED;
+}
+
+.footer-contact-item svg {
+  color: #7C5AED;
+}
+
+.footer-col-title {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 0.95rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 18px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.88rem;
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #7C5AED;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.footer-social-icon {
+  color: #6b7280;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+
+.footer-social-icon:hover {
+  color: #7C5AED;
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 24px;
+  text-align: center;
+}
+
+.footer-copy {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.82rem;
+  color: #4b5563;
+  margin-bottom: 6px;
+}
+
+.footer-disclaimer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.78rem;
+  color: #374151;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
