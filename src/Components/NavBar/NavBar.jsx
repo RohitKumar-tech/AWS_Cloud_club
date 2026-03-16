@@ -55,6 +55,15 @@ const NavBar = () => {
             </NavLink>
           ))}
           <a
+            href="https://acc-recruitment.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-link-item"
+            onClick={closeMenu}
+          >
+            Recruitment
+          </a>
+          <a
             href="https://www.meetup.com/aws-cloud-club-srm/"
             target="_blank"
             rel="noopener noreferrer"
