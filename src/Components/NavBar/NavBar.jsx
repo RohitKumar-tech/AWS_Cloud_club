@@ -55,7 +55,7 @@ const NavBar = () => {
             </NavLink>
           ))}
           <a
-            href="https://acc-recruitment.vercel.app"
+            href="https://recruitment-portal-iota.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link-item"
